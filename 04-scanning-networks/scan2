@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Wed May 24 17:06:24 2023 as: nmap -sn -oX scan2 10.0.0.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -oX scan2 10.0.0.0/24" start="1684962384" startstr="Wed May 24 17:06:24 2023" version="7.93" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.10" addrtype="ipv4"/>
+<address addr="00:0C:29:74:2F:22" addrtype="mac" vendor="VMware"/>
+<hostnames>
+<hostname name="scotejo-w10" type="PTR"/>
+</hostnames>
+<times srtt="529" rttvar="1449" to="100000"/>
+</host>
+<host><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="10.0.0.99" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</host>
+<runstats><finished time="1684962385" timestr="Wed May 24 17:06:25 2023" summary="Nmap done at Wed May 24 17:06:25 2023; 256 IP addresses (2 hosts up) scanned in 1.94 seconds" elapsed="1.94" exit="success"/><hosts up="2" down="254" total="256"/>
+</runstats>
+</nmaprun>
